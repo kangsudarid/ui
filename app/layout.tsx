@@ -17,22 +17,22 @@ const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
-  name: 'Sudar UI',
+  name: 'Sudar Blogger UI',
   url: baseUrl,
   alternateName: ['SudarUI', 'Sudar UI', 'Sudar UI Components', 'Sudar Blogger UI', 'Sudar Blogger', ],
 }
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
-  title: "Joko UI - Free Tailwind CSS Components",
+  title: "Sudar Blogger - Free Tailwind CSS Components",
   description:
     "Free, open-source Tailwind CSS components. Copy-paste ready components to build beautiful, responsive websites faster. No installation required.",
   keywords: ["tailwind css", "components", "ui library", "free", "open source"],
   openGraph: {
-    title: "Sudar - Free Tailwind CSS Components",
+    title: "Sudar Blogger - Free Tailwind CSS Components",
     description: "Free, open-source Tailwind CSS components. Copy-paste ready components to build beautiful, responsive websites faster.",
     url: baseUrl,
-    siteName: "Joko UI",
+    siteName: "Sudar Blogger",
     images: [
       {
         url: `${baseUrl}/og.webp`,
