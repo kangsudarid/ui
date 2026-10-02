@@ -7,7 +7,7 @@ export default function FeaturesSection() {
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">
-            Why Joko UI?
+            Why Sudar UI?
           </h2>
           <p className="text-lg text-muted-foreground">
             Everything you need to build modern interfaces, without the bloat.
