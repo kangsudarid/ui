@@ -91,7 +91,7 @@ export default function Footer() {
         {/* Bottom */}
         <div className="mt-16 pt-8 border-t border-border/50 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} JokoUI. Released under the MIT License.
+            © {new Date().getFullYear()} Sudar Blogger. Released under the MIT License.
           </p>
           <div className="flex items-center gap-1 text-sm text-muted-foreground">
             Crafted with
