@@ -12,33 +12,33 @@ const poppins = Poppins({
   weight: ["300", "400", "500", "600", "700", "800"],
 });
 
-const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'
+const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://www.seotemplate.web.id'
 
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
-  name: 'Sudar Blogger UI',
+  name: 'SEO Template UI',
   url: baseUrl,
-  alternateName: ['SudarUI', 'Sudar UI', 'Sudar UI Components', 'Sudar Blogger UI', 'Sudar Blogger', ],
+  alternateName: ['TemplateUI', 'Template UI', 'Template UI Components', 'Template SEO UI', 'SEO Template', ],
 }
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
-  title: "Sudar Blogger - Free Tailwind CSS Components",
+  title: "Template SEO - Free Tailwind CSS Components",
   description:
     "Free, open-source Tailwind CSS components. Copy-paste ready components to build beautiful, responsive websites faster. No installation required.",
   keywords: ["tailwind css", "components", "ui library", "free", "open source"],
   openGraph: {
-    title: "Sudar Blogger - Free Tailwind CSS Components",
+    title: "SEO Template - Free Tailwind CSS Components",
     description: "Free, open-source Tailwind CSS components. Copy-paste ready components to build beautiful, responsive websites faster.",
     url: baseUrl,
-    siteName: "Sudar Blogger",
+    siteName: "Template UI",
     images: [
       {
         url: `${baseUrl}/og.webp`,
         width: 1200,
         height: 630,
-        alt: "Sudar UI - Free Tailwind CSS Components",
+        alt: "Template UI - Free Tailwind CSS Components",
       },
     ],
     locale: "en_US",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sudar UI - Free Tailwind CSS Components",
+    title: "Template UI - Free Tailwind CSS Components",
     description: "Free, open-source Tailwind CSS components. Copy-paste ready components to build beautiful, responsive websites faster.",
     images: [`${baseUrl}/og.webp`],
   },
