@@ -24,7 +24,7 @@ const jsonLd = {
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
-  title: "Template SEO - Free Tailwind CSS Components",
+  title: "SEO Template UI - Free Tailwind CSS Components",
   description:
     "Free, open-source Tailwind CSS components. Copy-paste ready components to build beautiful, responsive websites faster. No installation required.",
   keywords: ["tailwind css", "components", "ui library", "free", "open source"],
