@@ -17,7 +17,7 @@ export default function Footer() {
               Beautifully designed, open-source Tailwind CSS components. Build fast, responsive, and modern websites without the hassle of setup or configuration.
             </p>
             <div className="flex items-center gap-4 pt-2">
-              <a href="https://github.com/rayasabari/joko-ui" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full glass-card text-muted-foreground hover:text-foreground hover:bg-primary/10 transition-all">
+              <a href="https://github.com/kangsudarid/ui" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full glass-card text-muted-foreground hover:text-foreground hover:bg-primary/10 transition-all">
                 <IconBrandGithub stroke={1.5} className="w-5 h-5" />
               </a>
               <a href="https://discord.gg/YFDPRs35Gt" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full glass-card text-muted-foreground hover:text-foreground hover:bg-primary/10 transition-all">
@@ -91,14 +91,14 @@ export default function Footer() {
         {/* Bottom */}
         <div className="mt-16 pt-8 border-t border-border/50 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Sudar Blogger. Released under the MIT License.
+            © {new Date().getFullYear()} SEO Template. Released under the MIT License.
           </p>
           <div className="flex items-center gap-1 text-sm text-muted-foreground">
             Crafted with
             <IconHeartFilled className="w-4 h-4 text-red-500 animate-pulse mx-1" />
             by
-            <a href="https://rayasabari.com" target="_blank" rel="noopener noreferrer" className="font-medium text-foreground hover:text-primary transition-colors ml-1">
-              RYSB
+            <a href="https://seotemplate.web.id" target="_blank" rel="noopener noreferrer" className="font-medium text-foreground hover:text-primary transition-colors ml-1">
+              Template UI
             </a>
           </div>
         </div>
