@@ -1,4 +1,4 @@
-# Joko UI
+# SEO Template UI
 
 ![](https://img.shields.io/github/stars/rayasabari/joko-ui?style=social) 
 ![](https://img.shields.io/github/issues/rayasabari/joko-ui)
@@ -7,7 +7,7 @@
 
 Joko UI is a collection of free Tailwind CSS components that can be used in your next project. With a range of copy-paste ready components, you can build your next marketing website, admin dashboard, eCommerce store and much more without installing any heavy dependencies.
 
-**[📚 View Documentation](https://www.jokoui.web.id/)**
+**[📚 View Documentation](https://www.seotemplate.web.id/)**
 
 ## Table of Contents
 
